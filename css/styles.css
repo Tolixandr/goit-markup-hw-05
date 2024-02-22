@@ -374,7 +374,6 @@ ol {
 }
 .footer-text-social {
   color: #fff;
-  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
@@ -420,7 +419,8 @@ ol {
 .footer-text-sub {
   width: 264px;
   display: flex;
-  color: #f4f4fd;
+  color: #ffffff;
+  font-weight: 500px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -435,18 +435,19 @@ ol {
   background-color: transparent;
   padding: 8px 0 8px 16px;
   color: #FFF
+  font-size: 12px;
+  line-height: 2; 
+  letter-spacing: 0.04em;
 }
 .footer-input::placeholder {
   color:  #FFF;
-font-size: 12px;
-line-height: 2; 
-letter-spacing: 0.04em;
+
 }
 .footer-form-sub {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 .footer-button-sub {
   display: inline-flex;
@@ -458,10 +459,13 @@ letter-spacing: 0.04em;
   font-weight: 500;
   line-height: 1.5; 
   letter-spacing: 0.04em;
-  height: 40px;
+  height: 24px;
   min-width: 165px;
   align-items: center;
   justify-content: center;
+  cursor: pointer
+  border: none;
+
 }
 .button-subscribe-svg {
   margin-left: 16px;
@@ -613,9 +617,7 @@ letter-spacing: 0.04em;
   border-color: #4d5ae5;
 }
 
-.modal-field {
-  margin-bottom: 24px;
-}
+
 
 .check-text {
   color: #8e8f99;
