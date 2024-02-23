@@ -645,15 +645,11 @@ ol {
   fill: transparent;
 }
 
-.form-check:focus + .check-text .check-icon {
+.form-check:focus + .check-text .span-check-icon {
   border: 1px solid #4d5ae5;
   flex-shrink: 0;
 }
 
-.form-check:checked + .check-text .check-icon {
-  fill: #f4f4fd;
- 
-}
 .form-check:checked + .check-text .span-check-icon {
   background-color: #404bbf;
   border: none;
