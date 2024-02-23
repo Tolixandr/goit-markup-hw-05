@@ -426,6 +426,7 @@ ol {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+
 .footer-input {
   width: 264px;
   height: 40px;
@@ -651,11 +652,12 @@ ol {
 
 .form-check:checked + .check-text .check-icon {
   background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+ 
 }
 .form-check:checked + .check-text .span-check-icon {
-  background-color: #404bbf
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
   }
 
 .privacy-link {
