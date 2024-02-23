@@ -420,7 +420,7 @@ ol {
   width: 264px;
   display: flex;
   color: #ffffff;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -434,14 +434,13 @@ ol {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding: 8px 0 8px 16px;
-  color: #FFF
+  color: #ffffff;
   font-size: 12px;
   line-height: 2; 
   letter-spacing: 0.04em;
 }
 .footer-input::placeholder {
-  color:  #FFF;
-
+  color:  #ffffff;
 }
 .footer-form-sub {
   display: flex;
@@ -459,11 +458,11 @@ ol {
   font-weight: 500;
   line-height: 1.5; 
   letter-spacing: 0.04em;
-  height: 24px;
+  height: 40px;
   min-width: 165px;
   align-items: center;
   justify-content: center;
-  cursor: pointer
+  cursor: pointer;
   border: none;
 
 }
@@ -651,8 +650,10 @@ ol {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-  
 }
+.form-check:checked + .check-text .span-check-icon {
+  background-color: #404bbf
+  }
 
 .privacy-link {
   color: #4d5ae5;
